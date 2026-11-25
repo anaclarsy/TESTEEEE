@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  background: #f4f6f9;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  color: #4b5563;
+  margin-top: -8px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.field label {
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.field input[type="text"],
+.field input[type="number"] {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.checkbox-field {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-field label {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.mensagem {
+  margin-top: 10px;
+  font-size: 14px;
+  min-height: 20px;
+}
+
+.mensagem.erro {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.mensagem.sucesso {
+  color: #15803d;
+  font-weight: bold;
+}
+
+.resumo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.lista li:last-child {
+  border-bottom: none;
+}
